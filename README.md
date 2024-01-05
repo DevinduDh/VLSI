@@ -3,7 +3,7 @@
 CMOS INVERTER
 
 -   Schematic
--   ![CMOS Schematic](images/cmos-schematic.png)
+![cmos-schematic](https://github.com/DevinduDh/VLSI/assets/76746921/b789add5-c4e5-4842-99f8-b3794c2b66a5)
 
 
 -   Graphs
