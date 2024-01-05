@@ -3,7 +3,7 @@
 CMOS INVERTER
 
 -   Schematic
-<img title="CMOS inverter schematic" alt="Picture of CMOS inverter schematic" src="cmos-schematic.png">
+<img title="CMOS inverter schematic" alt="Picture of CMOS inverter schematic" src="images/cmos-schematic.png">
 
 -   Graphs
 
