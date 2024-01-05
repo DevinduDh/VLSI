@@ -3,7 +3,8 @@
 CMOS INVERTER
 
 -   Schematic
-<img title="CMOS inverter schematic" alt="Picture of CMOS inverter schematic" src="images/cmos-schematic.png">
+![alt text](https://github.com/DevinduDh/VLSI/blob/images/cmos-schematic.png?raw=true)
+
 
 -   Graphs
 
