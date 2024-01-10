@@ -1,7 +1,7 @@
 **VLSI Project**
 # NMOS
 ## Voltage Transfer Characteristics/ DC transfer characteristics (VTC Curve)
-Schematic
+-  Schematic
 ![id-vgs-schematic](https://github.com/DevinduDh/VLSI/assets/76746921/67988b57-a323-40dd-b8ec-27f88d5e847d)
 
 # CMOS INVERTER
