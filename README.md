@@ -5,9 +5,10 @@
 ![id-vgs-schematic](https://github.com/DevinduDh/VLSI/assets/76746921/67988b57-a323-40dd-b8ec-27f88d5e847d)
 
 - Graphs
-  #### I_D vs V_GS graphs
+  #### I_D vs V_DS graph
 ![id-vgs](https://github.com/DevinduDh/VLSI/assets/76746921/ba4c9f6f-701f-43fd-955c-28a10901f055)
 
+  #### I_D vs V_GS graph
 # CMOS INVERTER
 
 -  Schematic
