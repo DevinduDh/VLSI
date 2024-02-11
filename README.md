@@ -26,4 +26,24 @@ PDK used:- gpdk 45
 
 Firstly, NMOS and PMOS lengths are kept at 50nm and widths are varied using parametric analysis to make rise and fall transition equal.
 
+<br>
+# CMOS Latch comparison
+
+| Latch          | Functionality                                    | Good                                                                                   | Bad                                                                                                                     |
+|----------------|--------------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| (a)            | Transparent latch                                | Compact, fast operation                                                                | Limited output swing (not rail-to-rail), dynamic output (floats when opaque), exposed state node, potential noise issues  |
+| (b)            | Improved with CMOS transmission gate            | Rail-to-rail output swings, requires complementary clock                                 | Requires additional clock signal (K), increased complexity                                                            |
+| (c)            | Inverting latch with output inverter            | Isolates state node from output noise                                                    | Inverts output, requires additional inverter, potential delay increase                                                  |
+| (d)            | Inverting latch with buffered input              | Fast operation, simplified structure                                                     | Inverts output, potential delay increase, unbuffered output                                                             |
+| (e)            | Staticized latch with feedback                   | Prevents output from floating, adds stability                                           | Output noise sensitivity, potential state corruption                                                                   |
+| (f)            | Staticized latch with input inverter             | Fast and compact inverting latch                                                        | Output noise sensitivity, potential state corruption                                                                   |
+| (g)            | Robust static latch                               | Static operation, rail-to-rail swings, isolates state noise from output noise              | More complex design, potentially larger area footprint                                                                 |
+| (h)            | Inverting latch for semicustom datapath          | Faster and more compact design for controlled noise environments                         | Inverts output, potential delay increase, may not be suitable for all applications                                       |
+| (i)            | Jamb latch with weak feedback inverter           | Reduces clock load, saves transistors, improved design for specific applications           | Requires careful design for feedback inverter strength, potential noise issues                                            |
+| (j)            | Jamb latch for register files and FPGAs          | Suitable for specific applications like register files and FPGAs                           | Requires careful control of Dout signal, potential noise issues                                                         |
+| (k)            | Latch used in Itanium 2 processor               | Static feedback, optimized for specific processor requirements                            | Requires strong gate driving input, potentially complex design                                                          |
+|                |                                                  |                                                                                         |                                                                                                                         |
+
+
+
 
