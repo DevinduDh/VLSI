@@ -27,6 +27,7 @@ PDK used:- gpdk 45
 Firstly, NMOS and PMOS lengths are kept at 50nm and widths are varied using parametric analysis to make rise and fall transition equal.
 
 <br>
+
 # CMOS Latch comparison
 
 | Latch          | Functionality                                    | Good                                                                                   | Bad                                                                                                                     |
